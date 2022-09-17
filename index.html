@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
-             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta property="og:title" content="르탄이 - 프로필 링크" />
-        <meta property="og:description" content="어서와 코딩은 처음이지?" />
-        <meta property="og:image" content="공유할 이미지" />
+        <meta property="og:title" content="정소희 - 프로필 링크" />
+        <meta property="og:description" content="어서와 예술은 처음이지?" />
+        <meta property="og:image" content="JSH.png" />
         <title>정소희 - 프로필 링크</title>
         <style>
           @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
             * {
             font-family: "Pretendard",serif;
               }
-          body 
-          { 
-            background-color: #44398a;
-          }
+              body 
+              {
+             background-color: #6b75d6;
+              }
+              .green
+              {
+                width: 1000px;
+
+                margin-top: 0px;
+                margin-bottom: 10px;
+              }
+              .waves
+              {
+                width: 600px;
+
+                margin-top: 0px;
+                margin-bottom: 10px;
+              }
           .profile
           {
             width: 100px;
@@ -26,9 +38,7 @@
 
             border-radius: 100%;
 
-            border: 2px solid white;
-
-            background-image: url('정소희.png'); 
+            background-image: url('JSH.png'); 
             background-position: center;
             background-size: cover;
           }
@@ -37,17 +47,34 @@
             color: white;
             font-size: 20px;
 
-            margin-top: 30px;
+            margin-top: 20px;
+            margin-bottom: 0px;
+          }
+          .engname
+          {
+            color: white;
+            font-size: 18px;
+
+            margin-top: 0px;
+            margin-bottom: 10px;
+          }
+          .detail
+          {
+            color: rgb(193, 207, 255);
+            font-size: 14;
+
+            margin-top: 0px;
             margin-bottom: 10px;
           }
           .sub
           {
             color: white;
-            font-size: 14px;
+            font-size: 16px;
 
-            margin-top: 0px;
-            margin-bottom: 30px;
+            margin-top: 10px;
+            margin-bottom: 5px;
           }
+          
           .wrap
           {
             width: 300px;
@@ -60,7 +87,7 @@
           }
           .wrap > a 
           {
-            width: 300px;
+            width: 200px;
             height: 50px;
 
             background-color: whitesmoke;
@@ -88,14 +115,26 @@
         </style>
     </head>
     <body>
+      
       <div class="wrap">
+        <video class = "green" muted autoplay loop>
+          <source src="green.mp4" type="video/mp4">
+        </video>
         <div class="profile"></div>
-        <h1 class="main">소희</h1>
+        <h1 class="main">정소희</h1>
+        <h2 class="engname">Jeong Sohee</h2>
+        <p class="detail"> Hongik University, majaring in sculpture</p>
         <p class="sub">예술..좋아하세요?</p>
         <a target="_blank" href="https://m.blog.naver.com/rsoy2918">Blog</a>
         <a target="_blank" href="http://www.instagram.com/heesoheesohee">Instagram</a>
-        <a target="_blank" href="https://www.facebook.com/profile.php?id=100011464478703">Facebook</a>
+        <a target="_blank" href="https://www.linkedin.com/in/%EC%86%8C%ED%9D%AC-%EC%A0%95-683a9b1aa">Linkedin</a>
         <a target="_blank" href="https://www.notion.so/bfd60385a98a4bb49498a1b8b5dcbe3e">Notion</a>
+        <a target="_blank" href="https://www.behance.net/nightswimming">Behance</a>
+        <video class = "waves" muted autoplay loop>
+          <source src="waves.mp4" type="video/mp4">
+        </video>
+      
+        
       </div>
     </body>
 </html>
